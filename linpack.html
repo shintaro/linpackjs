@@ -1,0 +1,32 @@
+<html>
+<head>
+  <title>JavaScript Linpack</title>
+  <script type="text/javascript" src="linpack.js">
+</script>
+</head>
+
+<body>
+  <h1>JavaScript Linpack</h1>
+
+  <form>
+    Array Size:<input type="text" id="arraySize" value="200" /> <input type="button" id="runButton"
+    value="Run" /><br />
+    <br />
+    <input type="radio" name="code" value="Original" checked="checked" /> Original<br />
+    <input type="radio" name="code" value="Compiled" /> Compiled<br />
+    <input type="radio" name="code" value="Advanced" /> Advanced Compiled
+  </form>
+
+  <h2>Status</h2>
+
+  <div id="statusField">
+    NO-STATUS
+  </div>
+
+  <h3>Result</h3>
+
+  <div id="resultField"></div>
+
+</body>
+</html>
+
