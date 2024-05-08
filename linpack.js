@@ -36,7 +36,7 @@ function send() {
       }
       document.getElementById("statusField").innerHTML = "Running";
   } else {
-      alart("Please enter valid number");
+      alert("Please enter valid number");
   }
 }
 
